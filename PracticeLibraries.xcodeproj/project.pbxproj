@@ -13,6 +13,8 @@
 		1C48B5F62754CAA0003842F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F42754CAA0003842F5 /* Main.storyboard */; };
 		1C48B5F82754CAA3003842F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F72754CAA3003842F5 /* Assets.xcassets */; };
 		1C48B5FB2754CAA3003842F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F92754CAA3003842F5 /* LaunchScreen.storyboard */; };
+		1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */; };
+		1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1C48B5F72754CAA3003842F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C48B5FA2754CAA3003842F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C48B5FC2754CAA3003842F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IQKeyboardManager.storyboard; sourceTree = "<group>"; };
+		1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1C48B5F02754CAA0003842F5 /* SceneDelegate.swift */,
 				1C48B5F22754CAA0003842F5 /* ViewController.swift */,
 				1C48B5F42754CAA0003842F5 /* Main.storyboard */,
+				1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */,
+				1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */,
 				1C48B5F72754CAA3003842F5 /* Assets.xcassets */,
 				1C48B5F92754CAA3003842F5 /* LaunchScreen.storyboard */,
 				1C48B5FC2754CAA3003842F5 /* Info.plist */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C48B5FB2754CAA3003842F5 /* LaunchScreen.storyboard in Resources */,
+				1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */,
 				1C48B5F82754CAA3003842F5 /* Assets.xcassets in Resources */,
 				1C48B5F62754CAA0003842F5 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C48B5F32754CAA0003842F5 /* ViewController.swift in Sources */,
+				1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */,
 				1C48B5EF2754CAA0003842F5 /* AppDelegate.swift in Sources */,
 				1C48B5F12754CAA0003842F5 /* SceneDelegate.swift in Sources */,
 			);
