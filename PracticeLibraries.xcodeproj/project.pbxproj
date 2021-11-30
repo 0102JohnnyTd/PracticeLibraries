@@ -13,8 +13,6 @@
 		1C48B5F62754CAA0003842F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F42754CAA0003842F5 /* Main.storyboard */; };
 		1C48B5F82754CAA3003842F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F72754CAA3003842F5 /* Assets.xcassets */; };
 		1C48B5FB2754CAA3003842F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F92754CAA3003842F5 /* LaunchScreen.storyboard */; };
-		1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */; };
-		1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */; };
 		B31DBDA620E44EB9BFA3D45A /* Pods_PracticeLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB925BB3DC61B12F0E8F54ED /* Pods_PracticeLibraries.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +25,10 @@
 		1C48B5F72754CAA3003842F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C48B5FA2754CAA3003842F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C48B5FC2754CAA3003842F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IQKeyboardManager.storyboard; sourceTree = "<group>"; };
-		1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
+		1C65D1E2275623F000272D04 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
+		1C65D1E3275623F000272D04 /* IQKeyboardManager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IQKeyboardManager.storyboard; sourceTree = "<group>"; };
+		1C65D1E5275623F000272D04 /* Kingfisher.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kingfisher.storyboard; sourceTree = "<group>"; };
+		1C65D1E6275623F000272D04 /* KingfisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherViewController.swift; sourceTree = "<group>"; };
 		3BB748974F1ECC60D72B7547 /* Pods-PracticeLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeLibraries.debug.xcconfig"; path = "Target Support Files/Pods-PracticeLibraries/Pods-PracticeLibraries.debug.xcconfig"; sourceTree = "<group>"; };
 		48358AF2572E3200C723C4F1 /* Pods-PracticeLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeLibraries.release.xcconfig"; path = "Target Support Files/Pods-PracticeLibraries/Pods-PracticeLibraries.release.xcconfig"; sourceTree = "<group>"; };
 		DB925BB3DC61B12F0E8F54ED /* Pods_PracticeLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,14 +71,70 @@
 				1C48B5F02754CAA0003842F5 /* SceneDelegate.swift */,
 				1C48B5F22754CAA0003842F5 /* ViewController.swift */,
 				1C48B5F42754CAA0003842F5 /* Main.storyboard */,
-				1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */,
-				1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */,
 				1C48B5F72754CAA3003842F5 /* Assets.xcassets */,
 				1C48B5F92754CAA3003842F5 /* LaunchScreen.storyboard */,
+				1C65D1E8275623F000272D04 /* ActicveLabel */,
+				1C65D1E1275623F000272D04 /* Alamofire */,
+				1C65D1E4275623F000272D04 /* IQkeyboardManager */,
+				1C65D1E7275623F000272D04 /* Kingfisher */,
+				1C65D1E9275623F000272D04 /* Lottie */,
+				1C65D1E0275623F000272D04 /* Rswift */,
 				1C48B5FC2754CAA3003842F5 /* Info.plist */,
 			);
 			path = PracticeLibraries;
 			sourceTree = "<group>";
+		};
+		1C65D1E0275623F000272D04 /* Rswift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Rswift;
+			path = /Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/Rswift;
+			sourceTree = "<absolute>";
+		};
+		1C65D1E1275623F000272D04 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Alamofire;
+			path = /Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/Alamofire;
+			sourceTree = "<absolute>";
+		};
+		1C65D1E4275623F000272D04 /* IQkeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C65D1E2275623F000272D04 /* IQKeyboardManagerViewController.swift */,
+				1C65D1E3275623F000272D04 /* IQKeyboardManager.storyboard */,
+			);
+			name = IQkeyboardManager;
+			path = /Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/IQkeyboardManager;
+			sourceTree = "<absolute>";
+		};
+		1C65D1E7275623F000272D04 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				1C65D1E5275623F000272D04 /* Kingfisher.storyboard */,
+				1C65D1E6275623F000272D04 /* KingfisherViewController.swift */,
+			);
+			name = Kingfisher;
+			path = /Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/Kingfisher;
+			sourceTree = "<absolute>";
+		};
+		1C65D1E8275623F000272D04 /* ActicveLabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ActicveLabel;
+			path = /Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/ActicveLabel;
+			sourceTree = "<absolute>";
+		};
+		1C65D1E9275623F000272D04 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lottie;
+			path = /Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/Lottie;
+			sourceTree = "<absolute>";
 		};
 		3173DB0ACE43140B67D19501 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -94,7 +150,6 @@
 				3BB748974F1ECC60D72B7547 /* Pods-PracticeLibraries.debug.xcconfig */,
 				48358AF2572E3200C723C4F1 /* Pods-PracticeLibraries.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C48B5FB2754CAA3003842F5 /* LaunchScreen.storyboard in Resources */,
-				1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */,
 				1C48B5F82754CAA3003842F5 /* Assets.xcassets in Resources */,
 				1C48B5F62754CAA0003842F5 /* Main.storyboard in Resources */,
 			);
@@ -215,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C48B5F32754CAA0003842F5 /* ViewController.swift in Sources */,
-				1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */,
 				1C48B5EF2754CAA0003842F5 /* AppDelegate.swift in Sources */,
 				1C48B5F12754CAA0003842F5 /* SceneDelegate.swift in Sources */,
 			);
