@@ -15,6 +15,8 @@
 		1C48B5FB2754CAA3003842F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B5F92754CAA3003842F5 /* LaunchScreen.storyboard */; };
 		1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */; };
 		1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */; };
+		1C65D1EE27570C1800272D04 /* Kingfisher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C65D1ED27570C1800272D04 /* Kingfisher.storyboard */; };
+		1C65D1F027570C2A00272D04 /* KingfisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65D1EF27570C2A00272D04 /* KingfisherViewController.swift */; };
 		B31DBDA620E44EB9BFA3D45A /* Pods_PracticeLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB925BB3DC61B12F0E8F54ED /* Pods_PracticeLibraries.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		1C48B5FC2754CAA3003842F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IQKeyboardManager.storyboard; sourceTree = "<group>"; };
 		1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
+		1C65D1ED27570C1800272D04 /* Kingfisher.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kingfisher.storyboard; sourceTree = "<group>"; };
+		1C65D1EF27570C2A00272D04 /* KingfisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherViewController.swift; sourceTree = "<group>"; };
 		3BB748974F1ECC60D72B7547 /* Pods-PracticeLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeLibraries.debug.xcconfig"; path = "Target Support Files/Pods-PracticeLibraries/Pods-PracticeLibraries.debug.xcconfig"; sourceTree = "<group>"; };
 		48358AF2572E3200C723C4F1 /* Pods-PracticeLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeLibraries.release.xcconfig"; path = "Target Support Files/Pods-PracticeLibraries/Pods-PracticeLibraries.release.xcconfig"; sourceTree = "<group>"; };
 		DB925BB3DC61B12F0E8F54ED /* Pods_PracticeLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,8 @@
 				1C48B5F02754CAA0003842F5 /* SceneDelegate.swift */,
 				1C48B5F22754CAA0003842F5 /* ViewController.swift */,
 				1C48B5F42754CAA0003842F5 /* Main.storyboard */,
+				1C65D1ED27570C1800272D04 /* Kingfisher.storyboard */,
+				1C65D1EF27570C2A00272D04 /* KingfisherViewController.swift */,
 				1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */,
 				1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */,
 				1C48B5F72754CAA3003842F5 /* Assets.xcassets */,
@@ -94,7 +100,6 @@
 				3BB748974F1ECC60D72B7547 /* Pods-PracticeLibraries.debug.xcconfig */,
 				48358AF2572E3200C723C4F1 /* Pods-PracticeLibraries.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C65D1EE27570C1800272D04 /* Kingfisher.storyboard in Resources */,
 				1C48B5FB2754CAA3003842F5 /* LaunchScreen.storyboard in Resources */,
 				1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */,
 				1C48B5F82754CAA3003842F5 /* Assets.xcassets in Resources */,
@@ -217,6 +223,7 @@
 				1C48B5F32754CAA0003842F5 /* ViewController.swift in Sources */,
 				1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */,
 				1C48B5EF2754CAA0003842F5 /* AppDelegate.swift in Sources */,
+				1C65D1F027570C2A00272D04 /* KingfisherViewController.swift in Sources */,
 				1C48B5F12754CAA0003842F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

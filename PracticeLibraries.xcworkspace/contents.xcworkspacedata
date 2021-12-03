@@ -51,6 +51,12 @@
          location = "group:IQKeyboardManager.storyboard">
       </FileRef>
       <FileRef
+         location = "group:/Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/Kingfisher.storyboard">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/todaryoma/Dropbox/Lecture/Libraries/PracticeLibraries/PracticeLibraries/KingfisherViewController.swift">
+      </FileRef>
+      <FileRef
          location = "group:Info.plist">
       </FileRef>
       <FileRef

@@ -7,5 +7,6 @@ target 'PracticeLibraries' do
 
   # Pods for PracticeLibraries
   pod 'IQKeyboardManagerSwift'
+  pod 'Kingfisher' 
 
 end
