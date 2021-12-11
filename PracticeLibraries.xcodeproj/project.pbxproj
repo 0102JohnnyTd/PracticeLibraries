@@ -10,26 +10,66 @@
 		1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */; };
 		1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */; };
 		1C65D1EE27570C1800272D04 /* Kingfisher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C65D1ED27570C1800272D04 /* Kingfisher.storyboard */; };
+		1C67A3122760A8EE00C0AC6C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1C67A3112760A8EE00C0AC6C /* SnapKit */; };
+		1CD27D6E275DD3FD000413D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD27D6D275DD3FD000413D7 /* Main.storyboard */; };
+		1CD27D70275DD5B5000413D7 /* 75779-check.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CD27D6F275DD5B5000413D7 /* 75779-check.json */; };
 		1CDD86D5275DC42900DAAEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD86D4275DC42900DAAEC1 /* ViewController.swift */; };
 		1CDD86D7275DC42900DAAEC1 /* KingfisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD86CD275DC42900DAAEC1 /* KingfisherViewController.swift */; };
 		1CDD86D8275DC42900DAAEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD86CB275DC42900DAAEC1 /* AppDelegate.swift */; };
 		1CDD86D9275DC42900DAAEC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD86D2275DC42900DAAEC1 /* SceneDelegate.swift */; };
+		1CDD86DF275DC96400DAAEC1 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD86DE275DC96400DAAEC1 /* LottieViewController.swift */; };
+		1CDD86E1275DC96E00DAAEC1 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD86E0275DC96E00DAAEC1 /* Lottie.storyboard */; };
 		B31DBDA620E44EB9BFA3D45A /* Pods_PracticeLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB925BB3DC61B12F0E8F54ED /* Pods_PracticeLibraries.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CDD86EB275DD02900DAAEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8E950A16D00F649C54FFB30F81D7842;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		1CDD86ED275DD02900DAAEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3F44C782D64D7EB20B61CE3844EBFAD;
+			remoteInfo = Kingfisher;
+		};
+		1CDD86EF275DD02900DAAEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51BA97E8B5085EFFB47BC9C0B785CEA7;
+			remoteInfo = "lottie-ios";
+		};
+		1CDD86F1275DD02900DAAEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0FFA3932074782DD42934FE0BE6035CE;
+			remoteInfo = "Pods-PracticeLibraries";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C48B5EB2754CAA0003842F5 /* PracticeLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C48B6022754CBEE003842F5 /* IQKeyboardManager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IQKeyboardManager.storyboard; sourceTree = "<group>"; };
 		1C48B6042754CCD8003842F5 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
 		1C65D1ED27570C1800272D04 /* Kingfisher.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kingfisher.storyboard; sourceTree = "<group>"; };
+		1CD27D6D275DD3FD000413D7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1CD27D6F275DD5B5000413D7 /* 75779-check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "75779-check.json"; path = "../../../../My Mac (todaryoumanoMBP)/Downloads/75779-check.json"; sourceTree = "<group>"; };
 		1CDD86CA275DC42900DAAEC1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CDD86CB275DC42900DAAEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CDD86CD275DC42900DAAEC1 /* KingfisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherViewController.swift; sourceTree = "<group>"; };
 		1CDD86CE275DC42900DAAEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CDD86CF275DC42900DAAEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CDD86D1275DC42900DAAEC1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1CDD86D2275DC42900DAAEC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1CDD86D4275DC42900DAAEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CDD86DE275DC96400DAAEC1 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		1CDD86E0275DC96E00DAAEC1 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
 		3BB748974F1ECC60D72B7547 /* Pods-PracticeLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeLibraries.debug.xcconfig"; path = "Target Support Files/Pods-PracticeLibraries/Pods-PracticeLibraries.debug.xcconfig"; sourceTree = "<group>"; };
 		48358AF2572E3200C723C4F1 /* Pods-PracticeLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeLibraries.release.xcconfig"; path = "Target Support Files/Pods-PracticeLibraries/Pods-PracticeLibraries.release.xcconfig"; sourceTree = "<group>"; };
 		DB925BB3DC61B12F0E8F54ED /* Pods_PracticeLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31DBDA620E44EB9BFA3D45A /* Pods_PracticeLibraries.framework in Frameworks */,
+				1C67A3122760A8EE00C0AC6C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +113,11 @@
 				1CDD86D2275DC42900DAAEC1 /* SceneDelegate.swift */,
 				1CDD86CE275DC42900DAAEC1 /* Assets.xcassets */,
 				1CDD86CF275DC42900DAAEC1 /* Info.plist */,
+				1CD27D6F275DD5B5000413D7 /* 75779-check.json */,
+				1CD27D6D275DD3FD000413D7 /* Main.storyboard */,
 				1CDD86CA275DC42900DAAEC1 /* LaunchScreen.storyboard */,
-				1CDD86D1275DC42900DAAEC1 /* Main.storyboard */,
 				1CDD86D4275DC42900DAAEC1 /* ViewController.swift */,
+				1CDD86DD275DC66300DAAEC1 /* Lottie */,
 				1CDD86DA275DC45300DAAEC1 /* IQKeyboardManagerSwift */,
 				1CDD86DB275DC47900DAAEC1 /* Kingfisher */,
 			);
@@ -99,6 +142,26 @@
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
+		1CDD86DD275DC66300DAAEC1 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD86DE275DC96400DAAEC1 /* LottieViewController.swift */,
+				1CDD86E0275DC96E00DAAEC1 /* Lottie.storyboard */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		1CDD86E5275DD02900DAAEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD86EC275DD02900DAAEC1 /* IQKeyboardManagerSwift */,
+				1CDD86EE275DD02900DAAEC1 /* Kingfisher */,
+				1CDD86F0275DD02900DAAEC1 /* lottie-ios */,
+				1CDD86F2275DD02900DAAEC1 /* Pods-PracticeLibraries */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3173DB0ACE43140B67D19501 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +173,7 @@
 		D268A005F7F35427A09B6D2A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */,
 				3BB748974F1ECC60D72B7547 /* Pods-PracticeLibraries.debug.xcconfig */,
 				48358AF2572E3200C723C4F1 /* Pods-PracticeLibraries.release.xcconfig */,
 			);
@@ -134,6 +198,9 @@
 			dependencies = (
 			);
 			name = PracticeLibraries;
+			packageProductDependencies = (
+				1C67A3112760A8EE00C0AC6C /* SnapKit */,
+			);
 			productName = PracticeLibraries;
 			productReference = 1C48B5EB2754CAA0003842F5 /* PracticeLibraries.app */;
 			productType = "com.apple.product-type.application";
@@ -162,8 +229,17 @@
 				Base,
 			);
 			mainGroup = 1C48B5E22754CAA0003842F5;
+			packageReferences = (
+				1C67A3102760A8EE00C0AC6C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1C48B5EC2754CAA0003842F5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1CDD86E5275DD02900DAAEC1 /* Products */;
+					ProjectRef = 1CDD86E4275DD02900DAAEC1 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1C48B5EA2754CAA0003842F5 /* PracticeLibraries */,
@@ -171,13 +247,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1CDD86EC275DD02900DAAEC1 /* IQKeyboardManagerSwift */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift.framework;
+			remoteRef = 1CDD86EB275DD02900DAAEC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CDD86EE275DD02900DAAEC1 /* Kingfisher */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Kingfisher;
+			path = Kingfisher.framework;
+			remoteRef = 1CDD86ED275DD02900DAAEC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CDD86F0275DD02900DAAEC1 /* lottie-ios */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "lottie-ios";
+			path = Lottie.framework;
+			remoteRef = 1CDD86EF275DD02900DAAEC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CDD86F2275DD02900DAAEC1 /* Pods-PracticeLibraries */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-PracticeLibraries";
+			path = Pods_PracticeLibraries.framework;
+			remoteRef = 1CDD86F1275DD02900DAAEC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1C48B5E92754CAA0003842F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C65D1EE27570C1800272D04 /* Kingfisher.storyboard in Resources */,
+				1CDD86E1275DC96E00DAAEC1 /* Lottie.storyboard in Resources */,
 				1C48B6032754CBEE003842F5 /* IQKeyboardManager.storyboard in Resources */,
+				1CD27D70275DD5B5000413D7 /* 75779-check.json in Resources */,
+				1CD27D6E275DD3FD000413D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CDD86D5275DC42900DAAEC1 /* ViewController.swift in Sources */,
+				1CDD86DF275DC96400DAAEC1 /* LottieViewController.swift in Sources */,
 				1CDD86D7275DC42900DAAEC1 /* KingfisherViewController.swift in Sources */,
 				1CDD86D8275DC42900DAAEC1 /* AppDelegate.swift in Sources */,
 				1C48B6052754CCD8003842F5 /* IQKeyboardManagerViewController.swift in Sources */,
@@ -437,6 +552,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C67A3102760A8EE00C0AC6C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C67A3112760A8EE00C0AC6C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C67A3102760A8EE00C0AC6C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C48B5E32754CAA0003842F5 /* Project object */;
 }

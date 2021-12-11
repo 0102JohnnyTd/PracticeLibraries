@@ -63,7 +63,7 @@ final class KingfisherViewController: UIViewController {
     ]
     
     // IBOutletで接続したimageViewの配列を変数imageViewsに渡す
-    // 🥦lazyってなに
+    // 🥦なぜここをlazyプロパティにしたんだろうか。
     private lazy var imageViews = [imageView1,imageView2,imageView3,imageVIew4,imageView5,imageView6]
     
     // IBOutletでStoryboard上のオブジェクトUIButtonをSwiftファイルに接続する
@@ -78,20 +78,23 @@ final class KingfisherViewController: UIViewController {
     // addTargetno#selectorに指定したtapLoadButtonメソッド
     @objc func tapLoadButton(_ sender:UIButton) {
         // ここから下2行まあぁじで意味わからん。
-        // .enumerated()で要素にインデックス番号を振り
+        // .enumerated()で要素とインデックスのタプルを返し
         //  .mapで配列urls、配列imageViewsの全ての要素にアクセスし
         // .forEach{ }で--　の処理を繰り返すと。
-        urls.enumerated().map { ($0.element, imageViews[$0.offset]) }.forEach {
+        urls.enumerated().map{( $0.element,imageViews[$0.offset])}.forEach {
             guard let url = $0.0, let imageView = $0.1 else { return }
-            
+            // urls,imageViewがnilでなかった場合に実行される処理
             // サーバーから画像の読み込み中にindicatorを表示させる
             imageView.kf.indicatorType = .activity
             // URLから画像を引用して表示させる
             imageView.kf.setImage(
                 with: url,
-                // サーバーから読み込む前の表示画面(あれ、これは崎山さんのやつと違うぞ。)
+                // サーバーから読み込む前の表示画面
                 placeholder: defImage
             )
         }
     }
 }
+
+
+//.enumerated().map { ($0.element, imageViews[$0.offset])}

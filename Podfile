@@ -8,5 +8,6 @@ target 'PracticeLibraries' do
   # Pods for PracticeLibraries
   pod 'IQKeyboardManagerSwift'
   pod 'Kingfisher' 
+  pod 'lottie-ios'
 
 end

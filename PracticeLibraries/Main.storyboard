@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-sL-TzH">
-                                <rect key="frame" x="0.0" y="188" width="414" height="81"/>
+                                <rect key="frame" x="0.0" y="188" width="414" height="126.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeY-0o-u3K">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="35.5"/>
@@ -37,6 +37,16 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="UPT-FR-B50" kind="push" id="OBW-oU-3X0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyF-Zl-swP" userLabel="Lottie">
+                                        <rect key="frame" x="0.0" y="91" width="414" height="35.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Lottie">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="jyR-0n-7qa" kind="push" id="Cx5-rK-Z6I"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -75,6 +85,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ujc-O2-lVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1667" y="-46"/>
+        </scene>
+        <!--Lottie-->
+        <scene sceneID="OBw-F0-QkM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lottie" id="jyR-0n-7qa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hhZ-uL-ToQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMt-cX-f9B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647" y="34"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mKH-Pe-cEn">
